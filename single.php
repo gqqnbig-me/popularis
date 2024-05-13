@@ -5,9 +5,6 @@
     <article class="col-md-<?php popularis_main_content_width_columns(); ?>">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>                         
                 <div <?php post_class(); ?>>
-                    <div class="news-thumb">
-                        <?php the_post_thumbnail('popularis-img'); ?>
-                    </div>
                     <div class="single-head">
                         <?php popularis_entry_footer('cats'); ?>
                         <?php the_title('<h1 class="single-title">', '</h1>'); ?>

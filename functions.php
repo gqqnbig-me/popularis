@@ -38,10 +38,6 @@ if (!function_exists('popularis_setup')) :
             'header-text' => array('site-title', 'site-description'),
         ));
         
-        add_theme_support('post-thumbnails');
-        set_post_thumbnail_size(300, 300, true);
-        add_image_size('popularis-img', 1140, 600, true);
-        
         // Set the default content width.
         $GLOBALS['content_width'] = 1140;
 
