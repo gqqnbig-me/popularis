@@ -993,3 +993,8 @@ nav.navigation.post-navigation {
 .nav-next .fa {
     margin-left: 5px;
 }
+
+figure {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
